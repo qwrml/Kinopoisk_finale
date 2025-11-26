@@ -42,4 +42,3 @@ class KinopoiskAPI:
         url = f"{self.base_url}/movie/search"
         response = requests.put(url, headers=self.headers, params={"query": query})
         return response
-    

@@ -24,4 +24,3 @@ class LoginPage(BasePage):
     @allure.step("Проверить успешную авторизацию")
     def is_logged_in(self):
         return self.is_element_visible(self.USER_AVATAR)
-    
