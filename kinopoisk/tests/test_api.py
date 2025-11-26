@@ -65,3 +65,4 @@ class TestKinopoiskAPI:
         assert response.status_code == 200
         data = response.json()
         assert len(data["docs"]) > 0
+        

@@ -5,4 +5,4 @@ class Config:
     LOGIN = "+79630562957"
     PASSWORD = "Testpassword2345!!"
     TIMEOUT = 10
-    BROWSER = "chrome"
+    BROWSER = "Chrome"
