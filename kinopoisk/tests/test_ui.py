@@ -80,4 +80,4 @@ class TestKinopoiskUI:
         
         with allure.step("Проверить результаты поиска"):
             results = (By.CSS_SELECTOR, ".search_results")
-            assert self.base_page.find_element(results)
+            assert self.base_page.find_element(results)       
